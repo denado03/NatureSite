@@ -1,0 +1,142 @@
+@media(max-width: 1200px){
+    .service{
+        flex-direction: column;
+    }
+    .service-slider,
+    .service-block{
+        width: 100%;
+    
+    }
+
+    .service-slider{
+        height: 280px;
+    }
+    .slide img{
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+
+@media(max-width: 1000px){
+    header .container{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    nav {
+        margin-top: 20px;
+        width: 100%;
+    }
+    nav li{
+        flex-grow: 1;
+    }
+    nav a{
+        text-align: center;
+        padding:  20px 0;
+    }
+    
+    .home{
+        min-height: auto;
+        padding: 40px;
+    }
+
+    .fav-container{
+        flex-direction: column;
+    }
+
+    .fav-item{
+        width: 100%;
+    }
+
+    .fav-text{
+        width: 100%;
+    }
+
+    .tours-container a{
+        flex: 0 32%;
+
+    }
+}
+
+@media(max-width: 800px){
+    .logo{
+        margin-bottom: 20px;
+    }
+
+    .burger{
+        display: block;
+        background: var(--blue);
+        width: 100%;
+        padding: 20px 0;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 18px;
+        font-weight: 900;
+        outline: none;
+    }
+    nav{
+        margin-top: 0;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+    nav a{
+        padding: 20px 0;
+        background: var(--blue);
+        color: white;
+        border-top: 2px solid white;
+    }
+    nav a:hover{
+        background: rgb(55, 182, 255, 0.5)
+    }
+
+    .home-title{
+        font-size: 50px;
+    }
+
+    header .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fav-img{
+        width: 30%;
+    }
+
+    .tours-container{
+        flex: 0 49%;
+    }
+
+    .contacts-container{
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form{
+        width: 100%;
+    }
+
+    .footer-logo{
+        margin-left: auto;
+    }
+}
+
+@media(max-width: 600px){
+    .fav-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fav-img{
+        width: 70%;
+        margin: 0 auto;
+        border: 3px solid var(--blue);
+    }
+
+    .tours-container{
+        flex: 0 100%;
+    }
+}
